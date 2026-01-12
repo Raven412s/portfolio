@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/refs */
 import React, { useRef, useEffect, useState, useMemo } from 'react';
 import { useFrame, useThree } from '@react-three/fiber';
 import { useFBO, useTexture } from '@react-three/drei';
@@ -12,10 +13,10 @@ interface ModelProps {
   containerRef: React.RefObject<HTMLDivElement | null>;
 }
 
-interface Uniforms {
-  uDisplacement: { value: THREE.Texture | null };
-  uTexture: { value: THREE.Texture | null };
-  winResolution: { value: THREE.Vector2 };
+interface Uniforms extends Record<string, THREE.IUniform<THREE.Texture | THREE.Vector2 | null>> {
+  uDisplacement: THREE.IUniform<THREE.Texture | null>;
+  uTexture: THREE.IUniform<THREE.Texture | null>;
+  winResolution: THREE.IUniform<THREE.Vector2>;
 }
 
 function createImageScene(viewport: { width: number; height: number }, texture: THREE.Texture) {
