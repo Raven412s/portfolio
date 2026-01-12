@@ -1,0 +1,138 @@
+{
+    "global": {
+        "navbar": {
+            "name": "Ashutosh",
+            "links": {
+                "home": "Home",
+                "about": "About",
+                "work": "Work",
+                "lab": "i18n Lab",
+                "experiments": "Experiments",
+                "contact": "Contact"
+            }
+        }
+    },
+    "pages": {
+        "homepage": {
+            "sections": {
+                "hero": {
+                    "tagline": "2 Years of Crafting Digital Motion",
+                    "title": {
+                        "words": [
+                            "Building",
+                            "Visual Narratives",
+                            "& Scalable Systems."
+                        ]
+                    },
+                    "description": {
+                        "parts": [
+                            "Full-stack developer specializing in",
+                            "Next.js",
+                            "&",
+                            "Three.js",
+                            "I bridge the gap between complex backend architectures and high-performance WebGL experiences."
+                        ]
+                    },
+                    "cta": {
+                        "button": "View My Work",
+                        "line": "Available for new projects"
+                    }
+                },
+                "localizationShowcase": {
+                    "steps": {
+                        "awareness": {
+                            "title": "Can't understand English?",
+                            "description": "Your users might feel the same. Language is not a preference — it's access.",
+                            "hint": "Try switching the language ↑"
+                        },
+                        "impact": {
+                            "title": "Now imagine this for your brand.",
+                            "description": "Native language builds trust, improves reach and conversions, reduces cognitive load, and enables global-ready products."
+                        },
+                        "architecture": {
+                            "title": "Localization is architecture.",
+                            "description": "Not string replacement. A system that scales across routes and users.",
+                            "stack": [
+                                "Next.js App Router",
+                                "next-intl namespaces",
+                                "Type-safe keys",
+                                "SEO locales"
+                            ]
+                        },
+                        "management": {
+                            "title": "Modern Language Management.",
+                            "description": "Structured. Predictable. Designed for real products — not spreadsheets."
+                        }
+                    },
+                    "chart": {
+                        "launch": "Launch",
+                        "growth": "Growth",
+                        "scale": "Scale",
+                        "global": "Global",
+                        "month0": "Month 0",
+                        "month3": "Month 3",
+                        "month6": "Month 6",
+                        "month12": "Month 12+",
+                        "gridLabels": [
+                            "100%",
+                            "75%",
+                            "50%",
+                            "25%",
+                            "0%"
+                        ]
+                    },
+                    "metrics": {
+                        "trust": "Trust",
+                        "conversion": "Conversion",
+                        "globalReach": "Global Reach",
+                        "trustIncrease": "Trust Increase",
+                        "higherConversion": "Higher Conversion",
+                        "userEngagement": "User Engagement",
+                        "marketReach": "Market Reach",
+                        "trustValue": "+45%",
+                        "conversionValue": "+68%",
+                        "engagementValue": "3.2x",
+                        "reachValue": "+220%"
+                    },
+                    "management": {
+                        "projectTitle": "Translation Project",
+                        "projectName": "Global-App-v1.0",
+                        "key": "key",
+                        "english": "English",
+                        "translation": "Translation",
+                        "heroTitle": "hero.title",
+                        "heroText": "Welcome to our platform",
+                        "ctaButton": "cta.button",
+                        "ctaText": "Start Free Trial",
+                        "overallCompletion": "Overall Completion",
+                        "completionRate": "92%",
+                        "launchButton": "Launch Localization Lab →"
+                    },
+                    "ui": {
+                        "architectureFlow": "UI → next-intl → Dynamic Routes",
+                        "seoMeta": "SEO Meta",
+                        "jsonLocales": "JSON Locales"
+                    }
+                },
+                "localizationIntro": {
+                    "tagline": "Localization Philosophy",
+                    "title": {
+                        "prefix": "I build",
+                        "highlight": "language-aware systems",
+                        "suffix": ", not just multi-language pages."
+                    },
+                    "description": "Localization for me is an architectural decision — from SEO-safe routing and metadata generation to JSON-driven content pipelines. Every language behaves like a first-class citizen, not an afterthought.",
+                    "highlights": [
+                        "Locale-aware routing",
+                        "SEO metadata per language",
+                        "JSON content decoupling",
+                        "Edge-friendly rendering",
+                        "Scalable i18n architecture"
+                    ],
+                    "scrollHint": "Scroll to see how it works",
+                    "imageAlt": "Language and localization illustration"
+                }
+            }
+        }
+    }
+}
